@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FiGithub } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { IoMailOpenOutline } from "react-icons/io5";
+import Image from "../photos/hs-image.png"
 
 
 const roles = [
@@ -105,7 +106,7 @@ const HeroSection = () => {
       <div>
         <div className="hero-sec-right">
       <img
-         src={null}
+         src={Image}
         alt="Hero Section"
         className="h-[330px] w-[300px] object-cover p-8  hover:scale-105 transition-all duration-1000"
       />

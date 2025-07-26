@@ -5,6 +5,10 @@ import CSS from '../icons/css.png'
 import HTML from '../icons/html.png'
 import JS from '../icons/js.png'
 import REACT from '../icons/react.png'
+import App_Demo from '../photos/App_Demo.png'
+import Gallery from '../photos/gallery.png'
+import Wallpaper from "../photos/wallpaper.png"
+import Course from '../photos/Course_Starter.png'
 
 
 
@@ -26,7 +30,7 @@ const Projects = () => {
          {/* project1 */}
            <div
       className="relative w-[70%] h-[415px] bg-center mt-5 bg-no-repeat bg-cover shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-[30px] group overflow-hidden"
-      style={{ backgroundImage: `url(${null})` }}
+      style={{ backgroundImage: `url(${App_Demo})` }}
     >
       {/* Sliding gray overlay */}
       <div className="absolute inset-0 z-0">
@@ -79,7 +83,7 @@ const Projects = () => {
       {/* project2 */}
        <div
       className="relative w-[70%] h-[415px] mt-[50px] bg-center bg-no-repeat bg-cover shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-auto mr-[30px] group overflow-hidden"
-      style={{ backgroundImage: `url(${null})` }}
+      style={{ backgroundImage: `url(${Gallery})` }}
     >
       {/* Sliding gray overlay */}
       <div className="absolute inset-0 z-0">
@@ -133,7 +137,7 @@ const Projects = () => {
        {/* project3 */}
        <div
       className="relative w-[70%] h-[415px] bg-center mt-[50px] bg-no-repeat bg-cover shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-[30px] group overflow-hidden"
-      style={{ backgroundImage: `url(${null})` }}
+      style={{ backgroundImage: `url(${Course})` }}
     >
       {/* Sliding gray overlay */}
       <div className="absolute inset-0 z-0">
@@ -186,7 +190,7 @@ const Projects = () => {
      {/* project4 */}
       <div
       className="relative w-[70%] h-[415px] mt-[50px] bg-center bg-no-repeat bg-cover shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-auto mr-[30px] group overflow-hidden"
-      style={{ backgroundImage: `url(${null})` }}
+      style={{ backgroundImage: `url(${Wallpaper})` }}
     >
       {/* Sliding gray overlay */}
       <div className="absolute inset-0 z-0">

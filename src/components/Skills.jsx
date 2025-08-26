@@ -38,7 +38,7 @@ const Skills = () => {
     <section className="relative px-8 py-20 bg-purple-100 text-black" id="skills">
 
           {/* Faded background name */}
-      <div className="absolute select-none text-[10em] font-bold text-gray-500 bottom-[-35px] right-3.5 z-0">
+      <div className="absolute select-none text-[4rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] font-bold text-gray-500 bottom-[-20px] sm:bottom-[-25px] md:bottom-[-30px] right-2 sm:right-3.5 z-0">
         Skills
       </div>
 

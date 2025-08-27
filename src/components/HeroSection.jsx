@@ -71,13 +71,13 @@ const HeroSection = () => {
           </div>
 
           <a
-            href="/public/Manshi_Kumari_Resume.pdf"
+           href="/Manshi_Kumari_Resume.pdf"
            target="_blank"
-           download="my-resume"
+           download="Manshi_Kumari_Resume"
            className="inline-block bg-pink-500 text-white font-semibold px-6 py-2 rounded-full hover:bg-pink-600 cursor-pointer w-fit text-center"
           >
-            Resume
-         </a>
+             Resume
+          </a>
 
           <div className="flex gap-4 mt-2 sm:mt-0">
             <a href="https://github.com/manshikumari67" target="_blank" rel="noopener noreferrer">

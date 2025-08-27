@@ -32,175 +32,180 @@ const Projects = () => {
       <div className='mt-10 flex flex-col gap-10'>
 
         {/* Project 1 */}
-        <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-5 rounded-lg shadow-[0px_0px_40px_#1f1f1f] ml-[30px] group overflow-hidden sm:w-[70%] sm:ml-[5%]">
-          <video className="absolute inset-0 w-full h-full object-cover" src={HireNext} autoPlay loop muted />
-          <div className="absolute inset-0 z-0">
-            <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
-          </div>
-          <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
-            <div className="absolute top-[-90px] right-[-10px] text-[170px] font-bold text-white z-10 sm:text-[100px] sm:top-[-50px]">01</div>
-            <div className="absolute bottom-4 left-4 text-white p-5 rounded-lg max-w-[65%] z-10 sm:max-w-[90%]">
-              <div className="flex gap-3 mb-3">
-                <img className="w-8 h-8" src={HTML} alt="HTML" />
-                <img className="w-8 h-8" src={CSS} alt="CSS" />
-                <img className="w-8 h-8" src={JS} alt="JavaScript" />
-                <img className="w-8 h-8" src={REACT} alt="React" />
-                <img className="w-8 h-8" src={TailWind} alt="TailWind" />
-              </div>
-              <h2 className="text-2xl font-semibold mb-2 sm:text-xl">HireNext</h2>
-              <p className="text-sm mb-4">Smart interview preparation platform with Q&A forums, quizzes, and leaderboard features.</p>
-              <div className="flex items-center gap-4">
-                <button
-                  onClick={() => openModal({
-                    title: 'HireNext',
-                    video: HireNext,
-                    description: 'HireNext is a smart interview preparation platform that allows users to practice questions, participate in quizzes, and track their progress through leaderboard stats. It provides topic-wise Q&A forums and interactive discussions to improve peer learning and engagement. Built with React and TailwindCSS.',
-                    github: 'https://github.com/manshikumari67/NextHire-Smart-Interview-Preparation-Platform',
-                    live: ''
-                  })}
-                  className="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md transition"
-                >
-                  Read More
-                </button>
-                <a href="https://github.com/manshikumari67/NextHire-Smart-Interview-Preparation-Platform" target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="text-xl hover:text-gray-300" />
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <FaLink className="text-xl hover:text-gray-300" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+       <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-5 rounded-lg shadow-[0px_0px_40px_#1f1f1f] ml-[30px] group overflow-hidden sm:w-[70%] sm:ml-[5%]">
+  <video className="absolute inset-0 w-full h-full object-cover" src={HireNext} autoPlay loop muted />
+  <div className="absolute inset-0 z-0">
+    <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
+  </div>
+  <div className="opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300 z-10">
+    <div className="absolute top-[-40px] text-[80px] font-bold text-black z-10 lg:top-[-90px] lg:text-[170px] lg:text-white right-[-10px]">01</div>
+    <div className="absolute bottom-2 left-2 text-black p-4 rounded-lg max-w-[95%] z-10 lg:max-w-[65%] lg:text-white">
+      <div className="flex gap-2 mb-2">
+        <img className="w-6 h-6" src={HTML} alt="HTML" />
+        <img className="w-6 h-6" src={CSS} alt="CSS" />
+        <img className="w-6 h-6" src={JS} alt="JavaScript" />
+        <img className="w-6 h-6" src={REACT} alt="React" />
+        <img className="w-6 h-6" src={TailWind} alt="TailWind" />
+      </div>
+      <h2 className="text-lg font-semibold mb-1 lg:text-2xl">HireNext</h2>
+      <p className="text-xs mb-2">Smart interview preparation platform with Q&A forums, quizzes, and leaderboard features.</p>
+      <div className="flex items-center gap-3">
+        <button
+          onClick={() => openModal({
+            title: 'HireNext',
+            video: HireNext,
+            description: 'HireNext is a smart interview preparation platform that allows users to practice questions, participate in quizzes, and track their progress through leaderboard stats. It provides topic-wise Q&A forums and interactive discussions to improve peer learning and engagement. Built with React and TailwindCSS.',
+            github: 'https://github.com/manshikumari67/NextHire-Smart-Interview-Preparation-Platform',
+            live: ''
+          })}
+          className="bg-pink-600 hover:bg-pink-700 text-white px-3 py-1 text-sm rounded-md transition"
+        >
+          Read More
+        </button>
+        <a href="https://github.com/manshikumari67/NextHire-Smart-Interview-Preparation-Platform" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="text-base hover:text-gray-300" />
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <FaLink className="text-base hover:text-gray-300" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
         {/* Project 2 */}
         <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-[50px] shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-auto mr-[30px] group overflow-hidden sm:w-[70%] sm:mr-auto">
-          <video className="absolute inset-0 w-full h-full object-cover z-0" src={AquaVeda} autoPlay loop muted />
-          <div className="absolute inset-0 z-10">
-            <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
-          </div>
-          <div className='opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10'>
-            <div className="absolute top-[-90px] text-[170px] font-bold text-white z-10 sm:text-[100px] sm:top-[-50px]">02</div>
-            <div className="absolute bottom-4 left-4 text-white p-5 rounded-lg max-w-[65%] z-10 sm:max-w-[90%]">
-              <div className="flex gap-3 mb-3">
-                <img className="w-8 h-8" src={HTML} alt="HTML" />
-                <img className="w-8 h-8" src={CSS} alt="CSS" />
-                <img className="w-8 h-8" src={JS} alt="JavaScript" />
-                <img className="w-8 h-8" src={REACT} alt="React" />
-                 <img className="w-8 h-8" src={TailWind} alt="TailWind" />
-              </div>
-              <h2 className="text-2xl font-semibold mb-2 sm:text-xl">AquaVeda</h2>
-              <p className="text-sm mb-4">AquaVeda is a platform focused on water recycling awareness, providing resources and educational content to promote sustainable water usage and environmental responsibility.</p>
-              <div className="flex items-center gap-4">
-                <button
-                  onClick={() => openModal({
-                    title: 'AquaVeda',
-                    video: AquaVeda,
-                    description: 'AquaVeda is a comprehensive platform to raise awareness about water recycling. It offers educational content, tips, and interactive resources to encourage sustainable water usage. Built with React and TailwindCSS.',
-                    github: 'https://github.com/manshikumari67/AquaVeda',
-                    live: ''
-                  })}
-                  className="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md transition"
-                >
-                  Read More
-                </button>
-                <a href="https://github.com/manshikumari67/AquaVeda" target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="text-xl hover:text-gray-300" />
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <FaLink className="text-xl hover:text-gray-300" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+  <video className="absolute inset-0 w-full h-full object-cover z-0" src={AquaVeda} autoPlay loop muted />
+  <div className="absolute inset-0 z-10">
+    <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
+  </div>
+  <div className='opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300 z-10'>
+    <div className="absolute top-[-40px] text-[80px] font-bold text-black z-10 lg:top-[-90px] lg:text-[170px] lg:text-white">02</div>
+    <div className="absolute bottom-2 left-2 text-black p-4 rounded-lg max-w-[95%] z-10 lg:max-w-[65%] lg:text-white">
+      <div className="flex gap-2 mb-2">
+        <img className="w-6 h-6" src={HTML} alt="HTML" />
+        <img className="w-6 h-6" src={CSS} alt="CSS" />
+        <img className="w-6 h-6" src={JS} alt="JavaScript" />
+        <img className="w-6 h-6" src={REACT} alt="React" />
+        <img className="w-6 h-6" src={TailWind} alt="TailWind" />
+      </div>
+      <h2 className="text-lg font-semibold mb-1 lg:text-2xl">AquaVeda</h2>
+      <p className="text-xs mb-2">AquaVeda is a platform focused on water recycling awareness, providing resources and educational content to promote sustainable water usage and environmental responsibility.</p>
+      <div className="flex items-center gap-3">
+        <button
+          onClick={() => openModal({
+            title: 'AquaVeda',
+            video: AquaVeda,
+            description: 'AquaVeda is a comprehensive platform to raise awareness about water recycling. It offers educational content, tips, and interactive resources to encourage sustainable water usage. Built with React and TailwindCSS.',
+            github: 'https://github.com/manshikumari67/AquaVeda',
+            live: ''
+          })}
+          className="bg-pink-600 hover:bg-pink-700 text-white px-3 py-1 text-sm rounded-md transition"
+        >
+          Read More
+        </button>
+        <a href="https://github.com/manshikumari67/AquaVeda" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="text-base hover:text-gray-300" />
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <FaLink className="text-base hover:text-gray-300" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
          {/* Project 3 */}
         <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-5 rounded-lg shadow-[0px_0px_40px_#1f1f1f] ml-[30px] group overflow-hidden sm:w-[70%] sm:ml-[5%]">
-          <video className="absolute inset-0 w-full h-full object-cover z-0" src={ShoppingCart} autoPlay loop muted />
-          <div className="absolute inset-0 z-10">
-            <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
-          </div>
-          <div className='opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10'>
-            <div className="absolute top-[-90px] right-[-10px] text-[170px] font-bold text-white z-10 sm:text-[100px] sm:top-[-50px]">03</div>
-            <div className="absolute bottom-4 left-4 text-white p-5 rounded-lg max-w-[65%] z-10 sm:max-w-[90%]">
-              <div className="flex gap-3 mb-3">
-                <img className="w-8 h-8" src={HTML} alt="HTML" />
-                <img className="w-8 h-8" src={CSS} alt="CSS" />
-                <img className="w-8 h-8" src={JS} alt="JavaScript" />
-                <img className="w-8 h-8" src={REACT} alt="React" />
-                 <img className="w-8 h-8" src={TailWind} alt="TailWind" />
-              </div>
-              <h2 className="text-2xl font-semibold mb-2 sm:text-xl">Shopping Cart</h2>
-              <p className="text-sm mb-4">A shopping cart application that fetches products from API, allows adding/removing items, and calculates total summary and bill.</p>
-              <div className="flex items-center gap-4">
-                <button
-                  onClick={() => openModal({
-                    title: 'Shopping Cart',
-                    video: ShoppingCart,
-                    description: ' This shopping cart app fetches product data from an API, allows users to add or delete items, shows the total summary, and generates the final bill. Built with React and TailwindCSS for a responsive, smooth user experience.',
-                    github: 'https://github.com/manshikumari67/Shoping_Cart',
-                    live: ''
-                  })}
-                  className="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md transition"
-                >
-                  Read More
-                </button>
-                <a href="https://github.com/manshikumari67/Shoping_Cart" target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="text-xl hover:text-gray-300" />
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <FaLink className="text-xl hover:text-gray-300" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+  <video className="absolute inset-0 w-full h-full object-cover z-0" src={ShoppingCart} autoPlay loop muted />
+  <div className="absolute inset-0 z-10">
+    <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
+  </div>
+  <div className='opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300 z-10'>
+    
+    {/* Heading '03' ko small aur medium screens par waisa hi rakhein, bade screens par bada karen */}
+    <div className="absolute top-[-40px] text-[80px] font-bold text-black z-10 lg:top-[-90px] lg:text-[170px] lg:text-white right-[-10px]">03</div>
+
+    {/* Content box ko small aur medium screens par waisa hi rakhein, bade screens par bada karen */}
+    <div className="absolute bottom-2 left-2 text-black p-4 rounded-lg max-w-[95%] z-10 lg:max-w-[65%] lg:text-white">
+      <div className="flex gap-2 mb-2">
+        <img className="w-6 h-6" src={HTML} alt="HTML" />
+        <img className="w-6 h-6" src={CSS} alt="CSS" />
+        <img className="w-6 h-6" src={JS} alt="JavaScript" />
+        <img className="w-6 h-6" src={REACT} alt="React" />
+        <img className="w-6 h-6" src={TailWind} alt="TailWind" />
+      </div>
+      <h2 className="text-lg font-semibold mb-1 lg:text-2xl">Shopping Cart</h2>
+      <p className="text-xs mb-2">A shopping cart application that fetches products from API, allows adding/removing items, and calculates total summary and bill.</p>
+      <div className="flex items-center gap-3">
+        <button
+          onClick={() => openModal({
+            title: 'Shopping Cart',
+            video: ShoppingCart,
+            description: ' This shopping cart app fetches product data from an API, allows users to add or delete items, shows the total summary, and generates the final bill. Built with React and TailwindCSS for a responsive, smooth user experience.',
+            github: 'https://github.com/manshikumari67/Shoping_Cart',
+            live: ''
+          })}
+          className="bg-pink-600 hover:bg-pink-700 text-white px-3 py-1 text-sm rounded-md transition"
+        >
+          Read More
+        </button>
+        <a href="https://github.com/manshikumari67/Shoping_Cart" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="text-base hover:text-gray-300" />
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <FaLink className="text-base hover:text-gray-300" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
-
-
-         {/* Project 4 */}
+        {/* Project 4 */}
         <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-[50px] shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-auto mr-[30px] group overflow-hidden sm:w-[70%] sm:mr-auto">
           <video className="absolute inset-0 w-full h-full object-cover z-0" src={Course} autoPlay loop muted />
           <div className="absolute inset-0 z-10">
             <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
           </div>
-          <div className='opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10'>
-            <div className="absolute top-[-90px] text-[170px] font-bold text-white z-10 sm:text-[100px] sm:top-[-50px]">04</div>
-            <div className="absolute bottom-4 left-4 text-white p-5 rounded-lg max-w-[65%] z-10 sm:max-w-[90%]">
-              <div className="flex gap-3 mb-3">
-                <img className="w-8 h-8" src={HTML} alt="HTML" />
-                <img className="w-8 h-8" src={CSS} alt="CSS" />
-                <img className="w-8 h-8" src={JS} alt="JavaScript" />
-                <img className="w-8 h-8" src={REACT} alt="React" />
-                 <img className="w-8 h-8" src={TailWind} alt="TailWind" />
+          <div className='opacity-100 lg:opacity-0 lg:group-hover:opacity-100 transition-opacity duration-300 z-10'>
+    
+            {/* Heading '04' ko small aur medium screens par waisa hi rakhein, bade screens par bada karen */}
+            <div className="absolute top-[-40px] text-[80px] font-bold text-black z-10 lg:top-[-90px] lg:text-[170px] lg:text-white">04</div>
+
+                {/* Content box ko small aur medium screens par waisa hi rakhein, bade screens par bada karen */}
+              <div className="absolute bottom-2 left-2 text-black p-4 rounded-lg max-w-[95%] z-10 lg:max-w-[65%] lg:text-white">
+                  <div className="flex gap-2 mb-2">
+                  <img className="w-6 h-6" src={HTML} alt="HTML" />
+                  <img className="w-6 h-6" src={CSS} alt="CSS" />
+                  <img className="w-6 h-6" src={JS} alt="JavaScript" />
+                  <img className="w-6 h-6" src={REACT} alt="React" />
+                  <img className="w-6 h-6" src={TailWind} alt="TailWind" />
               </div>
-              <h2 className="text-2xl font-semibold mb-2 sm:text-xl">CourseStarter</h2>
-              <p className="text-sm mb-4">A course starter platform featuring different fields and related courses, with like/dislike options to improve recommendations.</p>
-              <div className="flex items-center gap-4">
-                <button
-                  onClick={() => openModal({
+                <h2 className="text-lg font-semibold mb-1 lg:text-2xl">CourseStarter</h2>
+                 <p className="text-xs mb-2">A course starter platform featuring different fields and related courses, with like/dislike options to improve recommendations.</p>
+              <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => openModal({
                     title: 'CourseStarter',
                     video: Course,
                     description: 'Course Starter is a platform that offers courses in various fields. Users can explore related courses and provide feedback using like/dislike options to improve course recommendations. Built with React and TailwindCSS for a responsive and smooth experience.',
                     github: 'https://github.com/manshikumari67/Course_Starter',
                     live: ''
-                  })}
-                  className="bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md transition"
-                >
-                  Read More
-                </button>
-                <a href="https://github.com/manshikumari67/Course_Starter" target="_blank" rel="noopener noreferrer">
-                  <FaGithub className="text-xl hover:text-gray-300" />
-                </a>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                  <FaLink className="text-xl hover:text-gray-300" />
-                </a>
+                    })}
+                    className="bg-pink-600 hover:bg-pink-700 text-white px-3 py-1 text-sm rounded-md transition"
+                  >
+                     Read More
+                  </button>
+                  <a href="https://github.com/manshikumari67/Course_Starter" target="_blank" rel="noopener noreferrer">
+                     <FaGithub className="text-base hover:text-gray-300" />
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                     <FaLink className="text-base hover:text-gray-300" />
+                 </a>
               </div>
-            </div>
-          </div>
+           </div>
+         </div>
         </div>
 
 

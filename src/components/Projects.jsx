@@ -22,16 +22,17 @@ const Projects = () => {
 
   return (
     <div id='project' className='h-full w-full bg-gradient-to-br from-purple-600 via-white to-indigo-300 py-20'>
-      <div className='flex flex-col items-center'>
-        <h1 className='text-7xl pt-4'>Projects</h1>
-        <div className='border-2 w-[160px] mt-2 border-purple-800'></div>
-        <p className='pt-3'>Here are some of my recent projects that showcase my skills and experience in web development.</p>
+      <div className="container mx-auto px-4 sm:px-8 lg:px-8">
+        <div className='flex flex-col items-center'>
+          <h1 className='text-7xl pt-4'>Projects</h1>
+          <div className='border-2 w-[160px] mt-2 border-purple-800'></div>
+          <p className='pt-3 '>Here are some of my recent projects that showcase my skills and experience in web development.</p>
+        </div>
       </div>
-
       <div className='mt-10 flex flex-col gap-10'>
 
         {/* Project 1 */}
-        <div className="relative w-[70%] h-[415px] mt-5 rounded-lg shadow-[0px_0px_40px_#1f1f1f] ml-[30px] group overflow-hidden sm:w-[70%] sm:ml-[5%]">
+        <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-5 rounded-lg shadow-[0px_0px_40px_#1f1f1f] ml-[30px] group overflow-hidden sm:w-[70%] sm:ml-[5%]">
           <video className="absolute inset-0 w-full h-full object-cover" src={HireNext} autoPlay loop muted />
           <div className="absolute inset-0 z-0">
             <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
@@ -73,7 +74,7 @@ const Projects = () => {
         </div>
 
         {/* Project 2 */}
-        <div className="relative w-[70%] h-[415px] mt-[50px] shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-auto mr-[30px] group overflow-hidden sm:w-[70%] sm:mr-auto">
+        <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-[50px] shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-auto mr-[30px] group overflow-hidden sm:w-[70%] sm:mr-auto">
           <video className="absolute inset-0 w-full h-full object-cover z-0" src={AquaVeda} autoPlay loop muted />
           <div className="absolute inset-0 z-10">
             <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
@@ -115,7 +116,7 @@ const Projects = () => {
         </div>
 
          {/* Project 3 */}
-        <div className="relative w-[70%] h-[415px] mt-5 rounded-lg shadow-[0px_0px_40px_#1f1f1f] ml-[30px] group overflow-hidden sm:w-[70%] sm:ml-[5%]">
+        <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-5 rounded-lg shadow-[0px_0px_40px_#1f1f1f] ml-[30px] group overflow-hidden sm:w-[70%] sm:ml-[5%]">
           <video className="absolute inset-0 w-full h-full object-cover z-0" src={ShoppingCart} autoPlay loop muted />
           <div className="absolute inset-0 z-10">
             <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>
@@ -161,7 +162,7 @@ const Projects = () => {
 
 
          {/* Project 4 */}
-        <div className="relative w-[70%] h-[415px] mt-[50px] shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-auto mr-[30px] group overflow-hidden sm:w-[70%] sm:mr-auto">
+        <div className="relative w-[70%] h-[415px] max-sm:w-[90%] max-sm:h-[250px] mt-[50px] shadow-[0px_0px_40px_#1f1f1f] rounded-lg ml-auto mr-[30px] group overflow-hidden sm:w-[70%] sm:mr-auto">
           <video className="absolute inset-0 w-full h-full object-cover z-0" src={Course} autoPlay loop muted />
           <div className="absolute inset-0 z-10">
             <div className="h-full w-0 bg-gray-800 opacity-60 group-hover:w-full transition-all duration-500 ease-in-out"></div>

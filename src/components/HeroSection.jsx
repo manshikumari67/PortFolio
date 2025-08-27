@@ -92,7 +92,7 @@ const HeroSection = () => {
 
       {/* Image section */}
       <div className="mt-8 md:mt-0 flex-shrink-0">
-        <div className="hero-sec-right h-[220px] w-[200px] sm:h-[280px] sm:w-[240px] md:h-[300px] md:w-[280px] lg:h-[340px] lg:w-[300px] rounded-lg overflow-hidden shadow-[0_14px_20px_rgba(0,0,0,0.8)] hover:scale-105 transition-transform duration-700">
+        <div className="hero-sec-right h-[220px] w-[200px] sm:h-[260px] sm:w-[240px] md:h-[280px] md:w-[260px] lg:h-[300px] lg:w-[280px] rounded-lg overflow-hidden shadow-[0_14px_20px_rgba(0,0,0,0.8)] hover:scale-105 transition-transform duration-700">
           <img
             src={Image}
             alt="Hero Section"

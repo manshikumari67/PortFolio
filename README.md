@@ -1,12 +1,36 @@
-# React + Vite
+# 🌟 Personal Portfolio  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my **Portfolio Website**!  
+This project is built to showcase my **skills, projects, and achievements** as a developer.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👨‍💻 About Me  
 
-## Expanding the ESLint configuration
+Hi, I’m **Manshi Kumari** ✨  
+- 🎓 IT Engineering Student | Aspiring Software Developer  
+- 💻 Passionate about **Frontend Development, DSA & Problem Solving**  
+- 🚀 Always curious to explore **new technologies**  
+- 🏆 Finalist @ Smart India Hackathon 2024  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features  
+
+🌐 **Responsive Design** – Works on all devices (Desktop, Tablet, Mobile)  
+📂 **Projects Section** – Showcasing my work with live demo & GitHub links  
+📖 **About Section** – Personal info & career highlights  
+🛠 **Tech Stack Section** – Skills I have mastered  
+📞 **Contact Section** – Easy way to connect with me  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: React + Vite ⚡  
+- **Styling**: Tailwind CSS 🎨, Framer Motion (animations)  
+- **Components**:  React Icons  
+- **Deployment**: Netlify / Vercel ☁️  
+
+---
+
